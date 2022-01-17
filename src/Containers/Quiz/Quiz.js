@@ -123,6 +123,7 @@ class Quiz extends Component {
               answerNumber={this.state.activeQuestion + 1}
               state={this.state.answerState}
             />
+            // Savol
           )}
         </div>
       </div>

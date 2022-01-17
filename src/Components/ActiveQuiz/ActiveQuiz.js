@@ -19,7 +19,7 @@ const ActiveQuiz = (props) => {
         answers={props.answers}
         onAnswerClick={props.onAnswerClick}
         state={props.state}
-      />
+        /> {/* Variantlar */}
     </div>
   );
 };

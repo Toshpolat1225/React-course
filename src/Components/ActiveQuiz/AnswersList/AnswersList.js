@@ -13,6 +13,7 @@ const AnswersList = (props) => {
             onAnswerClick={props.onAnswerClick}
             state={props.state ? props.state[answer.id] : null}
           />
+          // Javob
         );
       })}
     </ul>
