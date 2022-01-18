@@ -32,6 +32,15 @@ const FinishedQuiz = (props) => {
       <p>
         Правильно {successCount} из {props.quiz.length}
       </p>
+      <p>
+         To'gri uchun {successCount * 1000}$
+      </p>
+      <p>
+        Natogri uchun{(successCount - props.quiz.length)*500}$
+      </p>
+      <p>
+        Ummumiy {((successCount *2)-(successCount - props.quiz.length))*500}$
+      </p>
 
       <div>
         <button onClick={props.onRetry}>Повторить</button>
